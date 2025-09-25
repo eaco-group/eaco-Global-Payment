@@ -18,7 +18,7 @@ GBP is commonly used for European and international payments
 
 Note: All fiat currencies are only used for pricing reference or exchanged for USDC → $e through bridging services such as Stripe/Wanlihui. Actual on chain payments only support digital currencies.
 
-
+<br />
 
 The three major digital currencies (Crypto) are the main force for on chain payments
 
@@ -42,6 +42,33 @@ The system generates a payment link or QR code
 The payer completes the payment (on chain transfer)
 
 The system automatically calls Swap routing (Orca, Raydium, Meteora) to exchange payment currency for EACO ($e)
+
+
+
+<br /><br />
+
+Technical integration suggestions
+Wallet connection: Phantom, Solflare
+
+<br />
+
+Swap routing: Orca, Raydium (Solana), Jupiter Aggregator
+
+<br />
+
+Fiat currency bridging: Stripe (USD/EUR/GBP), Wanlihui (CNY/JPY)
+
+<br />
+
+SDK interface:
+
+createPaymentRequest({amount, fiat, crypto})
+
+convertToEACO({token, amount})
+
+trackTransaction
+
+({txHash})
 
 The payee receives $e, and the on chain records are synchronized
 
