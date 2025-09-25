@@ -30,7 +30,9 @@ USDT Solana/ stablecoin payment mainstay
 
 USDC Solana/ compliant stablecoin, widely supported
 
-🔄  Collection and settlement process (unified settlement using $e)
+
+
+Collection and settlement process (unified settlement using $e)
 
 The user connects to the wallet and selects the receiving currency (SOL, USDT, USDC)
 
