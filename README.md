@@ -56,7 +56,7 @@ Swap routing: Orca, Raydium (Solana), Jupiter Aggregator
 
 <br />
 
-Fiat currency bridging: Stripe (USD/EUR/GBP), Wanlihui (CNY/JPY)
+Fiat currency bridging: Stripe (USD/EUR/GBP), Wanlihui (CNH/JPY)
 
 <br />
 
